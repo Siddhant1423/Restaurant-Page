@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background-color: rgb(255, 0, 0); */
+    background: radial-gradient(circle at bottom ,#4f46e4, #4f46e4 10%,transparent 10%, transparent 20%, #4f46e4 20%, #4f46e4 30%, transparent 30%, transparent 40%, #4f46e4 40%, #4f46e4 50%, transparent 50%, transparent 60%, #4f46e4 60%, #4f46e4 70%, transparent 70%, transparent 80%, #4f46e4 80%, #4f46e4 90%, transparent 90%);
+        background-size: 4em 4em;
+        background-color: #ffffff;
+        opacity: 1
+}
+header{
+    padding: 24px ;
+    background-color: black;
+}
+nav{
+    padding-top: 16px;
+}
+h1{
+    color: white;
+}
+#content{
+    background-color: white;
+    padding: 24px;
+    margin: 36px 176px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 16px;
+}
+#content h1{
+    color: black;
+}
+p{
+    font-size: 24px;
+}
+h3{
+    padding-top: 6px;
+}
+.header-btn{
+    box-sizing: content-box;
+    height: 24px;
+    width: 96px;
+    padding: 8px 16px;
+    margin-right: 16px;
+    border-radius: 8px;
+    border:4px solid #4f46e4 ;
+    font-size: 20px;
+    font-weight:bold;
+    color: #4f46e4;
+    background-color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.header-btn:focus{
+    background-color: white;
+}
